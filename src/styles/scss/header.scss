@@ -1,0 +1,44 @@
+$margin: 40px;
+
+.header{
+    padding-top: 45px;
+
+    
+
+    @media (min-width: 992px){
+        .mobile-menu{
+            display: none;
+        }
+    }
+    @media (max-width: 991px){
+        .desktop-menu{
+            display: none !important;
+        }
+        .mobile-menu{
+            display: contents;
+            .nav-link{
+                text-align: center !important;
+            }
+        }
+    }
+    
+    
+    ul{
+        list-style: none !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        margin-right: -$margin !important;
+        li{
+            margin-right: $margin;
+            a{
+                text-decoration: none;
+                &:hover{
+                    color: var(--primary) !important;
+                }
+                &.btn-secondary:hover{
+                    color: var(--white) !important;
+                }
+            }
+        }
+    }
+}

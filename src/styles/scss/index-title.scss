@@ -1,0 +1,24 @@
+.index-title{
+    margin-top: 90px;
+    @media screen and (min-width: 992px){
+        div{
+            max-width: 50%;
+        }
+    }
+    @media (max-width: 991px){
+        position: relative;
+            .left-text{
+                padding: 0 40px;
+                z-index: 1;
+                text-align: center;
+                .mt-5{
+                    margin-top: 10px !important;
+                }
+            }
+            .right-image{
+                position: absolute !important;
+                z-index: 0;
+                opacity: 0.5;
+            }
+        }
+}
