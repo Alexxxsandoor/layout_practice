@@ -23,13 +23,13 @@
     }
     .info-item{
         @media (min-width:992px) {
-            width: 30% !important;
-            max-width: 370px;
-            min-width: 250px;
+
+            flex: 1;
             height: 80%;
         }
         @media (max-width:991px) {
             width: 100%;
+            height: 140px;
             .info-text{
                 min-width: 80px
             }

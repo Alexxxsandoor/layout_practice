@@ -27,7 +27,7 @@ const InfoItems = (item) => {
         
     })
     return (
-        <li className='d-flex info-item align-items-center justify-content-center'>
+        <li className='d-flex bd-highlight info-item align-items-center justify-content-center'>
             <div className='icon-circle'><img src={icon} alt="icon" /></div>
             <div className='ml-2 info-text'>
                 <h4>{value}+</h4>
